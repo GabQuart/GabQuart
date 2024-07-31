@@ -14,7 +14,7 @@ function App() {
         <Pessoa 
         nome="Gabryel Cabral Pereira" 
         idade="20" 
-        profissao="Progamador Front-End" 
+        profissao="Progamador Front-End e Back-End" 
         foto="https://placehold.co/300x200"
         n
         />
