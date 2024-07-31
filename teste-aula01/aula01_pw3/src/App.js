@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Teste from './components/teste'; 
-
+import Pessoa from './components/pessoa1';
 const nome = 'Lucas';
 
 function App() {
@@ -11,6 +11,13 @@ function App() {
         <p>{nome}</p>
         <img src={logo} className="App-logo" alt="logo" />
         <Teste/>
+        <Pessoa 
+        nome="Gabryel Cabral Pereira" 
+        idade="20" 
+        profissao="Progamador Front-End" 
+        foto="https://placehold.co/300x200"
+        n
+        />
     </div>
   );
 }
